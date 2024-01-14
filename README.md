@@ -1,8 +1,8 @@
 # alu-AirBnB_clone
+
 Enterprise Web-Development
 
 ![hbnb_logo](https://github.com/Williedaniels/alu-AirBnB_clone/assets/125483758/4d09e883-3934-4f8e-86a1-a495a34bb34a)
-
 
 <h1 align="center">alu-AirBnB</h1>
 <p align="center">An AirBnB clone.</p>
@@ -12,7 +12,6 @@ Enterprise Web-Development
 ## Description :house:
 
 HBnB is a comprehensive web app, mirroring AirBnB, with features like database storage, a back-end API, and front-end interactions. It's the initial stage in creating a complete web application: an AirBnB replica. This stage includes a unique command-line interface for managing data and the foundational classes for storing it.
-
 
 ## Usage :computer:
 
@@ -62,7 +61,7 @@ The folder [engine](./models/engine/) manages the serialization and deserializat
 A FileStorage class is defined in [file_storage.py](./models/engine/file_storage.py) with methods to follow this flow:
 ```<object> -> to_dict() -> <dictionary> -> JSON dump -> <json string> -> FILE -> <json string> -> JSON load -> <dictionary> -> <object>```
 
-The [__init__.py](./models/__init__.py) file contains the instantiation of the FileStorage class called **storage**, followed by a call to the method reload() on that instance.
+The [**init**.py](./models/__init__.py) file contains the instantiation of the FileStorage class called **storage**, followed by a call to the method reload() on that instance.
 This allows the storage to be reloaded automatically at initialization, which recovers the serialized data.
 
 ## Tests :straight_ruler:
@@ -82,5 +81,6 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
+
 * **Willie Bless Daniels** <[Williedaniels](https://github.com/Williedaniels)> <w.daniels@alustudent.com>
 * **Diane Ingabire** <[] ()> <d.ingabire1@alustudent.com>
