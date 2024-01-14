@@ -4,8 +4,8 @@ Enterprise Web-Development
 
 ![hbnb_logo](https://github.com/Williedaniels/alu-AirBnB_clone/assets/125483758/4d09e883-3934-4f8e-86a1-a495a34bb34a)
 
-<h1 align="center">alu-AirBnB</h1>
-<p align="center">An AirBnB clone.</p>
+<h1 (align="center")>Alu-AirBnB</h1>
+<p [align="center"]>An AirBnB clone</p>
 
 ---
 
@@ -66,18 +66,18 @@ This allows the storage to be reloaded automatically at initialization, which re
 
 ## Tests :straight_ruler:
 
-Every bit of code gets checked using the **unittest** module. 
-You'll find the class tests in the [tests](./tests) folder. 
+Every bit of code gets checked using the **unittest** module.
+You'll find the class tests in the [tests](./tests) folder.
 If you want to run all tests at once, use the command below:
 
-```
-$ python3 unittest -m discover tests
+```text
+python3 unittest -m discover tests
 ```
 
 Or, you could choose to run just one test file at a time:
 
-```
-$ python3 unittest -m tests/test_console.py
+```text
+python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
