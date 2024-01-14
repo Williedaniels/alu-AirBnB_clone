@@ -1,7 +1,8 @@
 # alu-AirBnB_clone
 Enterprise Web-Development
 
-![logo](https://github.com/Williedaniels/alu-AirBnB_clone/assets/125483758/73f563a4-6b68-4986-b546-2068295417a5)
+![hbnb_logo](https://github.com/Williedaniels/alu-AirBnB_clone/assets/125483758/4d09e883-3934-4f8e-86a1-a495a34bb34a)
+
 
 <h1 align="center">alu-AirBnB</h1>
 <p align="center">An AirBnB clone.</p>
